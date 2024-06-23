@@ -1,4 +1,3 @@
-import javax.lang.model.element.Name;
 
 public class SalaryScale {
     public static void main(String[] args) {
@@ -8,12 +7,14 @@ public class SalaryScale {
         Scale employeeObj3 = new Scale();
         Scale employeeObj4 = new Scale();
         Scale employeeObj5 = new Scale();
+        Scale employeeObj6 = new Scale();
 
         employeeObj1.setEmployee("Sandy", 60000);
         employeeObj2.setEmployee("Yangchen", 45000);
         employeeObj3.setEmployee("Suresh", 50000);
         employeeObj4.setEmployee("Dawa", 19500);
         employeeObj5.setEmployee("Unknown",0);
+        employeeObj5.setEmployee("Mike",350000);
 
 
 
